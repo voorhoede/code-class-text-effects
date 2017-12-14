@@ -37,9 +37,13 @@ article header {
 }
 
 .content {
-  max-width: 34rem;
+  max-width: 45rem;
   margin: 0 auto;
   padding: 2rem;
+}
+
+article img {
+  width: 100%;
 }
 
 article p {
@@ -61,7 +65,6 @@ article header h1 {
   -6px 6px 0 #477178,
   -7px 7px 0 #477178,
   -8px 8px 0 #477178,
-
   -4px 15px 15px rgba(0,0,0,0.2);
 }
 

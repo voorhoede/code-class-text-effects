@@ -36,9 +36,13 @@ article header {
 }
 
 .content {
-  max-width: 34rem;
+  max-width: 45rem;
   margin: 0 auto;
   padding: 2rem;
+}
+
+article img {
+  width: 100%;
 }
 
 article p {

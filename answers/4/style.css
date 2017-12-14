@@ -19,9 +19,13 @@ article header {
 }
 
 .content {
-  max-width: 34rem;
+  max-width: 45rem;
   margin: 0 auto;
   padding: 2rem;
+}
+
+article img {
+  width: 100%;
 }
 
 article p {
@@ -43,14 +47,12 @@ article header h1:hover {
   color: #fff;
   transition: all 0.2s ease;
   
-  text-shadow: 0 0 5px #a59a2b,
-    0 0 10px #a59a2b,
-    0 0 20px #a59a2b,
-    0 0 40px #a59a2b,
-    0 0 80px #a59a2b,
-    0 0 90px #a59a2b,
-    0 0 100px #a59a2b,
-    0 0 150px #a59a2b;
+  text-shadow: 0 0 5px #EDDD3E,
+    0 0 10px #EDDD3E,
+    0 0 20px #EDDD3E,
+    0 0 50px #EDDD3E,
+    0 0 120px #EDDD3E,
+    0 0 140px #EDDD3E
 }
 
 @media screen and (min-width: 30em) {

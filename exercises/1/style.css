@@ -59,9 +59,9 @@ article header h1 {
   font-size: 3em;
   color: #1A4E57;
 
-  text-shadow: -0.08em 0.08em 0px #0b9fba,
-    -0.16em 0.16em 0px #0a8fa8,
-    -0.24em 0.24em 0px #098095;
+  /* --- jouw css hier 👇🏼 --- */
+
+  /* ------ */
 }
 
 @media screen and (min-width: 30em) {

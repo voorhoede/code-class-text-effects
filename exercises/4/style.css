@@ -13,27 +13,9 @@ article {
 
 article header {
   padding: 8rem 5rem;
-  background-image: url('/assets/img/letterpress.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #EDDD3E;
-  background-blend-mode: screen;
+  background-color: #000;
   text-align: center;
   position: relative;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  article header:after{
-    content:'';
-    background: #EDDD3E;
-    position: absolute;
-    opacity: 0.8;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-  }
 }
 
 .content {
@@ -48,7 +30,6 @@ article img {
 
 article p {
   margin: 0 auto 1rem;
-  font-size: 1.1rem;
 }
 
 article header h1 {
@@ -57,12 +38,13 @@ article header h1 {
   position: relative;
   z-index: 200;
   font-size: 3em;
-  color: #1A4E57;
+  color: #EDDD3E;
+  
+  /* --- jouw css hier 👇🏼 --- */
 
-  text-shadow: -0.08em 0.08em 0px #0b9fba,
-    -0.16em 0.16em 0px #0a8fa8,
-    -0.24em 0.24em 0px #098095;
 }
+
+/* ------ */
 
 @media screen and (min-width: 30em) {
   article header h1 {
