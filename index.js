@@ -9,4 +9,4 @@ app.get('/', (req, res) => res.sendFile('index.html', {root: __dirname }))
 
 app.use(express.static('./exercises'))
 
-app.listen(3000, () => console.log('App listening on port 3000 🎉'))
+app.listen(3300, () => console.log('App listening on port 3300 🎉'))
