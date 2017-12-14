@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif
+}
+
+article {
+  margin: 0 auto;
+}
+
+article header {
+  background-image: url('/assets/img/letterpress.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #EDDD3E;
+  background-blend-mode: screen;
+  text-align: center;
+  position: relative;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  article header:after{
+    content:'';
+    background: #EDDD3E;
+    position: absolute;
+    opacity: 0.8;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}
+
+.content {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+article p {
+  margin: 0 auto 1rem;
+}
+
+article header h1 {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 200;
+  font-size: 3em;
+  color: #1A4E57;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+              url(/assets/img/letterpress.jpg) repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  background-size: cover;
+ 
+  width: 100%;
+  height: 100%;
+  padding: 8rem 5rem;  
+  	
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+}
+
+@media screen and (min-width: 30em) {
+  article header h1 {
+    font-size: 5em;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  article header h1 {
+    font-size: 7em;
+  }
+}

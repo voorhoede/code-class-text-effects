@@ -1,0 +1,18 @@
+{
+  "name": "code-class-css-text-effects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "expose": "ngrok http 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "ngrok": "^2.2.24",
+    "node-reveal": "^1.3.0",
+    "nodemon": "^1.12.1"
+  }
+}

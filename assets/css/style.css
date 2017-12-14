@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, 
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Avenir Next", sans-serif;
+  background-image: url('/assets/img/letterpress.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EDDD3E;
+  background-blend-mode: screen;  
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body:after{
+    content:'';
+    background: #EDDD3E;
+    position: absolute;
+    opacity: 0.8;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+main {
+  position: relative;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0 0.5em;
+  transform: rotate(-6deg);
+  color: #1A4E57;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 30em) {
+  h1 {
+    font-size: 8em;
+  }    
+}
+
+h2 {
+  text-align: center;
+  color: #1A4E57;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+ul li {
+  display: block;
+  background: #fff;
+  font-size: 1.2em;
+  margin: 0 0.5em 1em;
+  padding: 1em;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: #333;
+}
+
+ul li a:last-of-type {
+  margin-left: 0.5em;
+}
