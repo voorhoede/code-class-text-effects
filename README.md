@@ -1,4 +1,4 @@
-# Code class `CSS text effects`
+# Code class CSS text effects
 
 ## Getting started
 ```sh
