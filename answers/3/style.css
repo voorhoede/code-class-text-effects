@@ -55,21 +55,14 @@ article header h1 {
   position: relative;
   z-index: 200;
   font-size: 3em;
-  color: #1A4E57;
-  -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent),
-              url(/assets/img/letterpress.jpg) repeat;
-  background: -o-linear-gradient(transparent, transparent);
-  -webkit-background-clip: text;
-  background-size: cover;
- 
-  width: 100%;
-  height: 100%;
+  color: #1A4E57; 
   padding: 8rem 5rem;  
-  	
+
+  color: transparent;
+	background: url(/assets/img/letterpress.jpg) repeat;
 	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
+  background-clip: text;
+  background-size: cover;
 }
 
 @media screen and (min-width: 30em) {
